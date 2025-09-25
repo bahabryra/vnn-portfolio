@@ -11,7 +11,7 @@ const AboutMe = () => {
     const textRef = useRef();
     const startRef = useRef();
 
-    const isTallerThan700 = useMediaQuery({ minHeight: 700  });
+    const isTallerThan700 = useMediaQuery({ minHeight: 700 });
     const isTallerThan600 = useMediaQuery({ minHeight: 700 });
 
     useGSAP(() => {
@@ -52,7 +52,9 @@ const AboutMe = () => {
 
     return (
         <div className="flex flex-col h-screen w-full bg-orange-200">
-            <div className={`flex flex-col flex-grow justify-center items-center p-4 sm:p-6 md:p-8 lg:p-12 bg-gradient-to-r from-orange-100 to-orange-200 rounded-lg shadow-lg h-full pb-20 sm:pb-36 ${isTallerThan600 ? "md:pb-48 lg:pb-64" : "md:pb-[30vh] lg:pb-[30vh]"}`}>
+            <div
+                className={`flex flex-col flex-grow justify-center items-center p-4 sm:p-6 md:p-8 lg:p-12 bg-gradient-to-r from-orange-100 to-orange-200 rounded-lg shadow-lg h-full pb-20 sm:pb-36 ${isTallerThan600 ? "md:pb-48 lg:pb-64" : "md:pb-[30vh] lg:pb-[30vh]"}`}
+            >
                 {/* Marco giratorio y avatar */}
                 <div className="relative mb-4 sm:mb-8 flex justify-center items-center">
                     {/* Marco giratorio */}
@@ -90,22 +92,31 @@ const AboutMe = () => {
                         , and I am from Mendoza, Argentina.
                     </p>
                     <p className="text-base sm:text-lg md:text-[1.5vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
-                        Since high school, I've been studying Software
-                        Development and found a passion for it.
+                        I hold a{" "}
+                        <span className="text-blue-600">
+                            Bachelor’s in Computer Science and Software
+                            Development
+                        </span>{" "}
+                        and work as a Full Stack Developer.
                     </p>
                     <p className="text-base sm:text-lg md:text-[1.5vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
-                        I excel at solving complex tasks, both in{" "}
-                        <span className="text-blue-600">Frontend</span> and{" "}
-                        <span className="text-blue-600">Backend</span>{" "}
-                        development. I enjoy learning new technologies, and I
-                        adapt quickly to new trends and work environments.
+                        Skilled in <span className="text-blue-600">React</span>,{" "}
+                        <span className="text-blue-600">Java Spring Boot</span>,
+                        and <span className="text-blue-600">APIs</span>, I build
+                        modern web applications across{" "}
+                        <span className="text-blue-600">frontend</span> and{" "}
+                        <span className="text-blue-600">backend</span>.
+                    </p>
+                    <p className="text-base sm:text-lg md:text-[1.5vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
+                        I adapt quickly, love learning new technologies, and
+                        enjoy solving complex challenges.
                     </p>
                     <p className="text-lg sm:text-xl md:text-[2vw] pt-3">
                         <span
                             className="text-slate-600 sm:text-2xl md:text-[2.8vw] font-rodin font-bold animate-pulse"
                             ref={startRef}
                         >
-                            Press "Start" to view my Resume.
+                            Press &quot;Start&quot; to view my Resume.
                         </span>{" "}
                     </p>
                 </div>

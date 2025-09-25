@@ -11,6 +11,7 @@ import starSvg from "../assets/svgs/star.svg";
 import MmFooter from "./MmFooter";
 import MmFooterMobile from "./MmFooterMobile";
 import { useMediaQuery } from "react-responsive";
+import WorkExperienceChannel from "./WorkExperienceChannel";
 
 export default function MainMenu() {
     const [fadeIn, setFadeIn] = useState(false);
@@ -30,6 +31,12 @@ export default function MainMenu() {
                 <div className="md:flex flex-wrap xl:px-32 md:pt-4 p-3 pt-14 justify-center md:pb-24">
                     <Link to={"/about-me"} className="md:w-1/4 md:p-[0.4vh]">
                         <DiscChannel />
+                    </Link>
+                    <Link
+                        to={"/work-experience"}
+                        className="md:w-1/4 md:p-[0.4vh]"
+                    >
+                        <WorkExperienceChannel />
                     </Link>
                     <Link
                         to={"/technologies-view"}
@@ -85,9 +92,6 @@ export default function MainMenu() {
                     </Link>
                     {isMdOrLarger && (
                         <>
-                            <div className="md:w-1/4 md:p-[0.4vh]">
-                                <EmptyChannel />
-                            </div>
                             <div className="md:w-1/4 md:p-[0.4vh]">
                                 <EmptyChannel />
                             </div>

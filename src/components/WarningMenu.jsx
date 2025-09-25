@@ -49,6 +49,12 @@ const WarningMenu = () => {
                 </div>
                 <div className="flex items-center mt-4">
                     <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
+                        I HOLD A BACHELOR’S DEGREE IN COMPUTER SCIENCE AND
+                        SOFTWARE DEVELOPMENT
+                    </div>
+                </div>
+                <div className="flex items-center mt-24">
+                    <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
                         THIS IS MY PORTFOLIO INSPIRED BY THE WII MAIN MENU.
                     </div>
                 </div>
@@ -60,17 +66,17 @@ const WarningMenu = () => {
 
                 <div className="flex items-center mt-16">
                     <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
-                        You can check the code at
+                        Connect with me on LinkedIn
                     </div>
                 </div>
                 <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
                     <a
-                        href="https://github.com/tobieche110/wii-portfolio"
+                        href="https://www.linkedin.com/in/tobiasechenique/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-rodin font-black text-2xl text-blue-300 ml-4 hover:underline"
                     >
-                        github.com/tobieche110/wii-portfolio
+                        linkedin.com/in/tobiasechenique
                     </a>
                 </div>
 

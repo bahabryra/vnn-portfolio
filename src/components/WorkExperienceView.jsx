@@ -12,7 +12,7 @@ const WorkExperienceView = () => {
     const workExperiences = [
         {
             id: 1,
-            year: "Feb 25  - Present",
+            year: "Feb 25 - Present",
             company: "ASF",
             position: "Full Stack Developer",
             description:
@@ -30,7 +30,7 @@ const WorkExperienceView = () => {
         },
         {
             id: 3,
-            year: "Oct 24  - Feb 25",
+            year: "Oct 24 - Feb 25",
             company: "Factor IT",
             position: "Full Stack Developer",
             description:
@@ -39,7 +39,7 @@ const WorkExperienceView = () => {
         },
         {
             id: 4,
-            year: "Jan 24  - Apr 24",
+            year: "Jan 24 - Apr 24",
             company: "OpenDev Pro",
             position: "Functional Analyst",
             description:

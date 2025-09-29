@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 
 const BannerChannel = ({ image, legend, classes }) => {
     const [showTooltip, setShowTooltip] = useState(false);
@@ -25,7 +26,7 @@ const BannerChannel = ({ image, legend, classes }) => {
         } else if (legend === "Featured Project") {
             setBackgroundColor("bg-blue-800");
         }
-    }, []);
+    }, [legend]);
 
     return (
         <div
@@ -49,6 +50,11 @@ const BannerChannel = ({ image, legend, classes }) => {
             )}
         </div>
     );
+};
+BannerChannel.propTypes = {
+    image: PropTypes.string.isRequired,
+    legend: PropTypes.string.isRequired,
+    classes: PropTypes.string
 };
 
 export default BannerChannel;

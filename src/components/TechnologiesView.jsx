@@ -59,7 +59,7 @@ const TechnologiesView = () => {
             >
                 {/* Programing Languages and Tools */}
                 <h2
-                    className={`transition-opacity duration-700 ${
+                    className={`text-center transition-opacity duration-700 ${
                         currentStep >= 1 ? "opacity-100" : "opacity-0"
                     }`}
                 >
@@ -125,7 +125,7 @@ const TechnologiesView = () => {
 
                 {/* Frameworks and Libraries */}
                 <h1
-                    className={`transition-opacity duration-700 ${
+                    className={`text-center transition-opacity duration-700 ${
                         currentStep >= 7 ? "opacity-100" : "opacity-0"
                     }`}
                 >
@@ -169,7 +169,7 @@ const TechnologiesView = () => {
 
                 {/* Database Management Systems */}
                 <h3
-                    className={`transition-opacity duration-700 ${
+                    className={`text-center transition-opacity duration-700 ${
                         currentStep >= 11 ? "opacity-100" : "opacity-0"
                     }`}
                 >
@@ -202,7 +202,7 @@ const TechnologiesView = () => {
 
                 {/* Other Tools */}
                 <h4
-                    className={`transition-opacity duration-700 ${
+                    className={`text-center transition-opacity duration-700 ${
                         currentStep >= 14 ? "opacity-100" : "opacity-0"
                     }`}
                 >

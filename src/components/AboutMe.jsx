@@ -87,9 +87,9 @@ const AboutMe = () => {
                     <p className="text-lg sm:text-xl md:text-[2vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
                         Hi! My name is{" "}
                         <span className="text-orange-600 animate-pulse">
-                            Tobias Echenique
+                            Riyad Bahabry
                         </span>
-                        , and I am from Mendoza, Argentina.
+                        , And I Joined VNN because I was intrested in learning how to make 
                     </p>
                     <p className="text-base sm:text-lg md:text-[1.5vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
                         I hold a{" "}

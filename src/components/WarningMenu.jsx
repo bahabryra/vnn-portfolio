@@ -38,9 +38,7 @@ const WarningMenu = () => {
                         <IoWarningSharp />
                     </div>
                     <div className="font-rodin font-black text-3xl md:text-5xl text-white md:ml-4">
-                        WARNING- YOU ARE ABOUT TO VIEW MY PORTFOLIO 
-                        <br>ITS SO GOOD YOU MAY GET PARALYZED FOR THE REST OF YOUR LIFE 
-                        <br> YOUVE BEEN WARNED</br>
+                        WARNING- YOU ARE ABOUT TO VIEW MY PORTFOLIO ITS SO GOOD YOU MAY GET PARALYZED FOR THE REST OF YOUR LIFE YOUVE BEEN WARNED
                     </div>
                 </div>
                 <div className="flex items-center mt-24">

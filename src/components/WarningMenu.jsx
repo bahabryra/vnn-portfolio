@@ -43,16 +43,11 @@ const WarningMenu = () => {
                 </div>
                 <div className="flex items-center mt-24">
                     <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
-                        HI, MY NAME IS <i>TOBIAS ECHENIQUE</i>. I AM A SOFTWARE
-                        DEVELOPER.
+                        HI, MY NAME IS <i>Riyad Bahabry</i>. I AM A SOFTWARE
+                        DEVELOPER 
                     </div>
                 </div>
-                <div className="flex items-center mt-4">
-                    <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
-                        I HOLD A BACHELOR’S DEGREE IN COMPUTER SCIENCE AND
-                        SOFTWARE DEVELOPMENT
-                    </div>
-                </div>
+
                 <div className="flex items-center mt-24">
                     <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
                         THIS IS MY PORTFOLIO INSPIRED BY THE WII MAIN MENU.
@@ -66,17 +61,27 @@ const WarningMenu = () => {
 
                 <div className="flex items-center mt-16">
                     <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
-                        Connect with me on LinkedIn
+                        Connect with me on Github
                     </div>
                 </div>
                 <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
                     <a
-                        href="https://www.linkedin.com/in/tobiasechenique/"
+                        href="https://www.github.com/bahabryra/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="font-rodin font-black text-2xl text-blue-300 ml-4 hover:underline"
                     >
-                        linkedin.com/in/tobiasechenique
+                        https://github.com/bahabryra
+                    </a>
+                </div>
+                <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
+                    <a
+                        href="https://www.vhhsvnn.com/"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="font-rodin font-black text-2xl text-blue-300 ml-4 hover:underline"
+                    >
+                        https://vhhsvnn.com/
                     </a>
                 </div>
 

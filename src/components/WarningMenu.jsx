@@ -50,7 +50,7 @@ const WarningMenu = () => {
 
                 <div className="flex items-center mt-24">
                     <div className="font-rodin font-black text-xl md:text-3xl text-center text-white md:ml-4">
-                        THIS IS MY PORTFOLIO INSPIRED BY THE WII MAIN MENU.
+                        THIS IS MY PORTFOLIO INSPIRED BY THE WII MAIN MENU For VNN.
                     </div>
                 </div>
                 <div className="flex items-center mt-4">

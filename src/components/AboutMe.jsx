@@ -89,23 +89,21 @@ const AboutMe = () => {
                         <span className="text-orange-600 animate-pulse">
                             Riyad Bahabry
                         </span>
-                        , And I Joined VNN because I was intrested in learning how to make 
+                        , And I Joined VNN because I was intrested in learning how to make professitional videos using editing
                     </p>
                     <p className="text-base sm:text-lg md:text-[1.5vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
                         I hold a{" "}
                         <span className="text-blue-600">
-                            Bachelor’s in Computer Science and Software
-                            Development
+                            and I wanted to use it for
                         </span>{" "}
-                        and work as a Full Stack Developer.
+                        my dream buissness in game development
                     </p>
                     <p className="text-base sm:text-lg md:text-[1.5vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
-                        Skilled in <span className="text-blue-600">React</span>,{" "}
-                        <span className="text-blue-600">Java Spring Boot</span>,
-                        and <span className="text-blue-600">APIs</span>, I build
-                        modern web applications across{" "}
-                        <span className="text-blue-600">frontend</span> and{" "}
-                        <span className="text-blue-600">backend</span>.
+                        Skilled in <span className="text-blue-600">HTML,CSS,JS</span>,{" "}
+                        <span className="text-blue-600">Python</span>,
+                        and <span className="text-blue-600">APIs</span>, I'm learning C#,C++ as well as video editing{" "}
+                        <span className="text-blue-600"> </span> {" "}
+                        <span className="text-blue-600"> </span>.
                     </p>
                     <p className="text-base sm:text-lg md:text-[1.5vw] mb-2 sm:mb-4 md:mb-6 leading-relaxed">
                         I adapt quickly, love learning new technologies, and

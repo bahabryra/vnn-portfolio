@@ -12,38 +12,20 @@ const WorkExperienceView = () => {
     const workExperiences = [
         {
             id: 1,
-            year: "Feb 25 - Present",
-            company: "ASF",
-            position: "Full Stack Developer",
-            description:
-                "Development of a management system for a multinational oil & gas company using React, Material UI, Java Spring Boot, and Oracle DB. Created interactive visualizations and contributed to frontend and backend tasks.",
-            color: "bg-green-600",
-        },
-        {
-            id: 2,
-            year: "Feb 25 - Sep 25",
-            company: "Freelance - Terraoliva",
-            position: "Frontend Developer & Project Lead",
-            description:
-                "Led the development of a ticket sales system for an event venue. Defined roadmap and Gantt, negotiated with the client, and built the frontend for both web (React) and mobile (React Native). Coordinated backend development in Ruby on Rails.",
-            color: "bg-yellow-600",
-        },
-        {
-            id: 3,
-            year: "Oct 24 - Feb 25",
-            company: "Factor IT",
-            position: "Full Stack Developer",
+            year: "December 25 - January 26",
+            company: "VNN - Year 1",
+            position: "Feature Story",
             description:
                 "Worked on a secured loan system for BBVA using React, Lit, Web Components, and Java Spring Boot. Collaborated with an international team and applied version control with Git.",
             color: "bg-blue-600",
         },
         {
-            id: 4,
-            year: "Jan 24 - Apr 24",
-            company: "OpenDev Pro",
-            position: "Functional Analyst",
+            id: 2,
+            year: "September 25",
+            company: "VNN - Year 1",
+            position: "6 Shot Story",
             description:
-                "Collaborated with clients to define functional requirements. Wrote user stories in Jira and created flow diagrams to support the development of a custom software product.",
+                "This is the first project  Done For VNN we took 6 shots and turned into a poem",
             color: "bg-purple-600",
         },
     ];

@@ -17,6 +17,7 @@ const WorkExperienceView = () => {
             position: "Feature Story",
             description:
                 "Worked on a secured loan system for BBVA using React, Lit, Web Components, and Java Spring Boot. Collaborated with an international team and applied version control with Git.",
+            
             color: "bg-blue-600",
         },
         {

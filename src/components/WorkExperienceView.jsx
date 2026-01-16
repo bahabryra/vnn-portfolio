@@ -64,7 +64,7 @@ const WorkExperienceView = () => {
             {/* Título */}
             <div className="text-center py-8">
                 <h1 className="font-serif font-bold text-4xl md:text-6xl text-amber-900">
-                    Professional Experience
+                    My Work
                 </h1>
             </div>
 

@@ -2,7 +2,7 @@
 
 Welcome to my **Wii Portfolio**. Its inspired by the beloved **Nintendo Wii Main Menu**. This website showcases my skills, projects, and personality in a playful, yet professional way.
 
-You can experience it live at https://tobieche.vercel.app/
+You can experience it live at https://vnn-portfolio.vercel.app/
 
 ![mainmenuscreenshot](https://github.com/user-attachments/assets/cd64e9db-ecf3-40ed-8dca-f491d9761cf6)
 
@@ -65,8 +65,8 @@ This project is open-source and available under the MIT License. Feel free to fo
 
 If you have any questions or just want to say hi, feel free to reach out to me:
 
-- Email: tobiasechenique@gmail.com
-- LinkedIn: [Tobias Echenique](https://www.linkedin.com/in/tobiasechenique/)
+- Email: iamtobusytosharemyemail@nosharing.com
+- 
 
 ---
 

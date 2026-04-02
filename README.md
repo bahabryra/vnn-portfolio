@@ -4,7 +4,7 @@ Welcome to my **Wii Portfolio**. Its inspired by the beloved **Nintendo Wii Main
 
 You can experience it live at https://vnn-portfolio.vercel.app/
 
-![mainmenuscreenshot](https://github.com/user-attachments/assets/cd64e9db-ecf3-40ed-8dca-f491d9761cf6)
+![mainmenuscreenshot](https://github.com/bahabryra/vnn-portfolio/blob/5a09730f8116a3ef258af81a90af0d6e3a4ce7f5/Untitled%20presentation.png)
 
 ---
 

@@ -1,18 +1,26 @@
-import { useRef } from "react";
+import { useRef, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import ViewFooter from "./ViewFooter";
 import avatarSvg from "../assets/svgs/avatar.svg";
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
+import aboutMeAudio from "../assets/About Me - No disk.mp3";
 
 const AboutMe = () => {
     const avatarRef = useRef();
     const frameRef = useRef();
     const textRef = useRef();
     const startRef = useRef();
+    const audioRef = useRef();
 
     const isTallerThan700 = useMediaQuery({ minHeight: 700 });
     const isTallerThan600 = useMediaQuery({ minHeight: 700 });
+
+    useEffect(() => {
+        if (audioRef.current) {
+            audioRef.current.play();
+        }
+    }, []);
 
     useGSAP(() => {
         gsap.from(avatarRef.current, {
@@ -52,8 +60,9 @@ const AboutMe = () => {
 
     return (
         <div className="flex flex-col h-screen w-full bg-orange-200">
+            <audio ref={audioRef} src={aboutMeAudio} />
             <div
-                className={`flex flex-col flex-grow justify-center items-center p-4 sm:p-6 md:p-8 lg:p-12 bg-gradient-to-r from-orange-100 to-orange-200 rounded-lg shadow-lg h-full pb-20 sm:pb-36 ${isTallerThan600 ? "md:pb-48 lg:pb-64" : "md:pb-[30vh] lg:pb-[30vh]"}`}
+                className={`flex flex-col flex-grow justify-center items-center p-4 sm:p-6 md:p-8 lg:p-12 bg-gradient-to-r from-orange-100 to-orange-200 rounded-lg shadow-lg h-full pb-20 sm:pb-36`}
             >
                 {/* Marco giratorio y avatar */}
                 <div className="relative mb-4 sm:mb-8 flex justify-center items-center">

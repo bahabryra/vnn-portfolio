@@ -4,7 +4,7 @@ import BannerChannel from "./BannerChannel";
 import githubSvg from "../assets/svgs/github.svg";
 import linkedinSvg from "../assets/svgs/linkedin.svg";
 import { Link } from "react-router-dom";
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import CodeChannel from "./CodeChannel";
 import TechnologiesChannel from "./TechnologiesChannel";
 import starSvg from "../assets/svgs/star.svg";
@@ -13,13 +13,30 @@ import MmFooterMobile from "./MmFooterMobile";
 import { useMediaQuery } from "react-responsive";
 import WorkExperienceChannel from "./WorkExperienceChannel";
 import React from 'react';
+import wiiMenuMusic from "../assets/01 Wii Menu.mp3";
 
 export default function MainMenu() {
     const [fadeIn, setFadeIn] = useState(false);
     const isMdOrLarger = useMediaQuery({ minWidth: 768 });
+    const audioRef = useRef(null);
 
     useEffect(() => {
         setFadeIn(true);
+
+        // Play music when component mounts
+        if (audioRef.current) {
+            audioRef.current.play().catch((error) => {
+                console.log("Audio playback failed:", error);
+            });
+        }
+
+        // Cleanup: stop music when component unmounts
+        return () => {
+            if (audioRef.current) {
+                audioRef.current.pause();
+                audioRef.current.currentTime = 0;
+            }
+        };
     }, []);
 
     return (
@@ -28,6 +45,14 @@ export default function MainMenu() {
                 fadeIn ? "fade-in" : ""
             }`}
         >
+            {/* Hidden audio element */}
+            <audio
+                ref={audioRef}
+                src={wiiMenuMusic}
+                loop
+                preload="auto"
+            />
+
             <div className="flex-grow md:h-[100vh] md:overflow-auto md:pb-0 pb-20">
                 <div className="md:flex flex-wrap xl:px-32 md:pt-4 p-3 pt-14 justify-center md:pb-24">
                     <Link to={"/about-me"} className="md:w-1/4 md:p-[0.4vh]">

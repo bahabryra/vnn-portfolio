@@ -12,6 +12,20 @@ import MmFooter from "./MmFooter";
 import MmFooterMobile from "./MmFooterMobile";
 import { useMediaQuery } from "react-responsive";
 import WorkExperienceChannel from "./WorkExperienceChannel";
+import React from 'react';
+import musicFile from 'src/assets/01 Wii Menu.mp3'; // Adjust path
+
+function BackgroundMusic() {
+  return (
+    <div>
+      <audio src={musicFile} autoPlay loop controls>
+        Your browser does not support the audio element.
+      </audio>
+    </div>
+  );
+}
+
+export default BackgroundMusic;
 
 export default function MainMenu() {
     const [fadeIn, setFadeIn] = useState(false);

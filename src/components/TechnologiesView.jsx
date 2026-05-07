@@ -100,17 +100,6 @@ const TechnologiesView = () => {
                         }`}
                     />
                     <img
-                        src={java}
-                        alt="Java"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 5 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                    <img
                         src={python}
                         alt="Python"
                         className={`${
@@ -132,73 +121,13 @@ const TechnologiesView = () => {
                     Frameworks and Libraries:
                 </h1>
                 <div className="flex space-x-2">
-                    <img
-                        src={react}
-                        alt="React"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 8 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                    <img
-                        src={rails}
-                        alt="Ruby on Rails"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 9 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                    <img
-                        src={spring}
-                        alt="Spring"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 10 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                </div>
-
+                    
                 {/* Database Management Systems */}
                 <h3
                     className={`text-center transition-opacity duration-700 ${
                         currentStep >= 11 ? "opacity-100" : "opacity-0"
                     }`}
                 >
-                    Database Management Systems:
-                </h3>
-                <div className="flex space-x-2">
-                    <img
-                        src={mysql}
-                        alt="MySQL"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 12 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                    <img
-                        src={postgres}
-                        alt="PostgreSQL"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 13 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                </div>
 
                 {/* Other Tools */}
                 <h4
@@ -221,17 +150,6 @@ const TechnologiesView = () => {
                         }`}
                     />
                     <img
-                        src={tailwindcss}
-                        alt="Tailwind CSS"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 16 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                    <img
                         src={figma}
                         alt="Figma"
                         className={`${
@@ -243,19 +161,8 @@ const TechnologiesView = () => {
                         }`}
                     />
                     <img
-                        src={bootstrap}
-                        alt="Bootstrap"
-                        className={`${
-                            isShortScreen
-                                ? "md:w-[8vh] w-8"
-                                : "md:w-[4.5vw] w-10"
-                        } transition-opacity duration-700 ${
-                            currentStep >= 18 ? "opacity-100" : "opacity-0"
-                        }`}
-                    />
-                    <img
-                        src={gsapSvg}
-                        alt="GSAP"
+                        src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Adobe_Premiere_Pro_CC_2026_icon.svg/3840px-Adobe_Premiere_Pro_CC_2026_icon.svg.png
+                        alt="PrPro"
                         className={`${
                             isShortScreen
                                 ? "md:w-[8vh] w-8"

@@ -25,8 +25,6 @@ function BackgroundMusic() {
   );
 }
 
-export default BackgroundMusic;
-
 export default function MainMenu() {
     const [fadeIn, setFadeIn] = useState(false);
     const isMdOrLarger = useMediaQuery({ minWidth: 768 });

@@ -26,8 +26,53 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "6 Shot Story",
             description:
-                "This is the first project  Done For VNN we took 6 shots and turned into a poem",
+                "This is the first project Done For VNN we took 6 shots and turned into a poem. Reflection: What did you learn through the process of creating this video? Did you manage your time well? Did you lose footage or have to start over?",
             color: "bg-purple-600",
+        },
+        {
+            id: 3,
+            year: "Upcoming",
+            company: "VNN - Videography",
+            position: "News Story",
+            description:
+                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What are your proudest moments in this video?",
+            color: "bg-red-600",
+        },
+        {
+            id: 4,
+            year: "Upcoming",
+            company: "VNN - Videography",
+            position: "PSA / Commercial",
+            description:
+                "At least 1 Public Service Announcement OR Commercial (0:30 - 1:00). Reflection: What did you learn through the process of producing this video? What were some challenges that you faced? What are your proudest moments?",
+            color: "bg-green-600",
+        },
+        {
+            id: 5,
+            year: "Upcoming",
+            company: "VNN - Creative Projects",
+            position: "Stop Motion Video",
+            description:
+                "Create a stop motion video. Reflection: What did you learn about FRAME RATE? What were some challenges that you faced along the way? What are your proudest moments in this video?",
+            color: "bg-indigo-600",
+        },
+        {
+            id: 6,
+            year: "Upcoming",
+            company: "VNN - Creative Projects",
+            position: "Inside Vestavia Reel",
+            description:
+                "Create an 'Inside Vestavia' Reel. Reflection: What did you learn about ASPECT RATIO? What were some challenges that you faced along the way? What are your proudest moments in this video?",
+            color: "bg-pink-600",
+        },
+        {
+            id: 7,
+            year: "Upcoming",
+            company: "VNN - Creative Projects",
+            position: "Green Screen Magic Video",
+            description:
+                "Create a green screen magic video. Reflection: What did you learn about working with a GREEN SCREEN? What were some challenges that you faced along the way? What are your proudest moments in this video?",
+            color: "bg-yellow-600",
         },
     ];
 
@@ -80,12 +125,12 @@ const WorkExperienceView = () => {
                         ></div>
 
                         {/* Contenedor de experiencias */}
-                        <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-4 relative">
+                        <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-4 relative overflow-x-auto">
                             {workExperiences.map((exp, index) => (
                                 <div
                                     key={exp.id}
                                     ref={(el) => experienceRefs.current[index] = el}
-                                    className="relative flex flex-col items-center group w-full md:w-1/4"
+                                    className="relative flex flex-col items-center group w-full md:w-1/4 flex-shrink-0"
                                     onMouseEnter={() => setHoveredItem(exp.id)}
                                     onMouseLeave={() => setHoveredItem(null)}
                                 >
@@ -98,7 +143,7 @@ const WorkExperienceView = () => {
 
                                     {/* Círculo SOBRE la línea */}
                                     <div
-                                        className={`hidden md:flex w-8 h-8 md:w-10 md:h-10 rounded-full ${exp.color} items-center justify-center text-white font-bold text-lg md:text-xl border-4 border-white shadow-lg transform transition-all duration-300 group-hover:scale-125 group-hover:shadow-2xl relative z-20 mb-6`}
+                                        className={`hidden md:flex w-8 h-8 md:w-10 md:h-10 rounded-full ${exp.color} items-center justify-center text-white font-bold text-lg md:text-xl border-4 border-amber-200 shadow-lg`}
                                     ></div>
 
                                     {/* Información de la experiencia debajo */}

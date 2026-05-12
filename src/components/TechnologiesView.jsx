@@ -161,7 +161,7 @@ const TechnologiesView = () => {
                         }`}
                     />
                     <img
-                        src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Adobe_Premiere_Pro_CC_2026_icon.svg/3840px-Adobe_Premiere_Pro_CC_2026_icon.svg.png
+                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Adobe_Premiere_Pro_CC_2026_icon.svg/3840px-Adobe_Premiere_Pro_CC_2026_icon.svg.png"
                         alt="PrPro"
                         className={`${
                             isShortScreen

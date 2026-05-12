@@ -71,7 +71,7 @@ export default function MainMenu() {
                         <TechnologiesChannel />
                     </Link>
                     <Link
-                        to={"https://www.linkedin.com/in/tobiasechenique/"}
+                        to={"https://www.linkedin.com/in/bahabryra/"}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="md:w-1/4 md:p-[0.4vh]"
@@ -83,7 +83,7 @@ export default function MainMenu() {
                         />
                     </Link>
                     <Link
-                        to={"https://github.com/tobieche110"}
+                        to={"https://github.com/bahabryra"}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="md:w-1/4 md:p-[0.4vh]"
@@ -96,7 +96,7 @@ export default function MainMenu() {
                     </Link>
                     <Link
                         to={
-                            "https://github.com/tobieche110/algoritmo-paneles-acusticos"
+                            "https://github.com/bahabryra/"
                         }
                         target="_blank"
                         rel="noopener noreferrer"

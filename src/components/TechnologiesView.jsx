@@ -121,13 +121,62 @@ const TechnologiesView = () => {
                     Frameworks and Libraries:
                 </h1>
                 <div className="flex space-x-2">
-                    
+                    <img
+                        src={react}
+                        alt="React"
+                        className={`${
+                            isShortScreen
+                                ? "md:w-[8vh] w-8"
+                                : "md:w-[4.5vw] w-10"
+                        } transition-opacity duration-700 ${
+                            currentStep >= 8 ? "opacity-100" : "opacity-0"
+                        }`}
+                    />
+                    <img
+                        src={tailwindcss}
+                        alt="Tailwind CSS"
+                        className={`${
+                            isShortScreen
+                                ? "md:w-[8vh] w-8"
+                                : "md:w-[4.5vw] w-10"
+                        } transition-opacity duration-700 ${
+                            currentStep >= 9 ? "opacity-100" : "opacity-0"
+                        }`}
+                    />
+                </div>
+
                 {/* Database Management Systems */}
                 <h3
                     className={`text-center transition-opacity duration-700 ${
                         currentStep >= 11 ? "opacity-100" : "opacity-0"
                     }`}
                 >
+                    Database Management Systems:
+                </h3>
+                <div className="flex space-x-2">
+                    <img
+                        src={mysql}
+                        alt="MySQL"
+                        className={`${
+                            isShortScreen
+                                ? "md:w-[8vh] w-8"
+                                : "md:w-[4.5vw] w-10"
+                        } transition-opacity duration-700 ${
+                            currentStep >= 12 ? "opacity-100" : "opacity-0"
+                        }`}
+                    />
+                    <img
+                        src={postgres}
+                        alt="PostgreSQL"
+                        className={`${
+                            isShortScreen
+                                ? "md:w-[8vh] w-8"
+                                : "md:w-[4.5vw] w-10"
+                        } transition-opacity duration-700 ${
+                            currentStep >= 13 ? "opacity-100" : "opacity-0"
+                        }`}
+                    />
+                </div>
 
                 {/* Other Tools */}
                 <h4

@@ -16,7 +16,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "6 Shot Story",
             description:
-                "This is the first project Done For VNN we took 6 shots and turned into a poem. It wasent that difficult because it was just drag and drop really and it was only 6 shots this is wh[...]",
+                "This is the first project Done For VNN we took 6 shots and turned into a poem. It wasent that difficult because it was just drag and drop really and it was only 6 shots this is where we learned how to record and edit it wasent difficult cause it was simple just drag and drop",
             color: "bg-purple-600",
             link: "https://drive.google.com/file/d/12SyCT7cei92nU-NkV9pB1peA-E26Scjq/view",
         },

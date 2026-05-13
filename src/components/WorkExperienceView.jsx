@@ -32,7 +32,7 @@ const WorkExperienceView = () => {
         },
         {
             id: 3,
-            year: "Upcoming",
+            year: "Feburary- April 2026",
             company: "VNN - Year 1",
             position: "PSA / Commercial",
             description:
@@ -42,7 +42,7 @@ const WorkExperienceView = () => {
         },
         {
             id: 4,
-            year: "Upcoming",
+            year: "March 2026",
             company: "VNN - Year 1",
             position: "Stop Motion Video",
             description:
@@ -52,7 +52,7 @@ const WorkExperienceView = () => {
         },
         {
             id: 5,
-            year: "Upcoming",
+            year: "May 2026",
             company: "VNN - Year 1",
             position: "Inside Vestavia Reel",
             description:
@@ -62,7 +62,7 @@ const WorkExperienceView = () => {
         },
         {
             id: 6,
-            year: "Upcoming",
+            year: "May 2026",
             company: "VNN - Year 1",
             position: "Green Screen Magic Video",
             description:

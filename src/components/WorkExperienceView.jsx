@@ -16,7 +16,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "6 Shot Story",
             description:
-                "This is the first project Done For VNN we took 6 shots and turned into a poem. It wasent that difficult because it was just drag and drop really and it was only 6 shots this is wh[...]
+                "This is the first project Done For VNN we took 6 shots and turned into a poem. It wasent that difficult because it was just drag and drop really and it was only 6 shots this is wh[...]"
             color: "bg-purple-600",
             link: "https://drive.google.com/file/d/12SyCT7cei92nU-NkV9pB1peA-E26Scjq/view",
         },
@@ -26,7 +26,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "News Story",
             description:
-                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What [...]
+                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What [...]"
             color: "bg-red-600",
             link: "https://drive.google.com/file/d/1Z34sg377q5vRfU1_VN3uhYOrOfNV8sc8/view",
         },
@@ -36,7 +36,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "PSA / Commercial",
             description:
-                "We Made this Project as a class for a company compatition called litterquitters.org where we explained the causes of littering in under a minuite in a fun and engaging way WE WON![...]
+                "We Made this Project as a class for a company compatition called litterquitters.org where we explained the causes of littering in under a minuite in a fun and engaging way WE WON![...]"
             color: "bg-green-600",
             link: "https://drive.google.com/drive/u/1/folders/106k1lbnCFAcDrbn9bjJlFp2_nvu1tQYn",
         },
@@ -46,7 +46,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Stop Motion Video",
             description:
-                "This is where we explored frame rate. I learned about the standered in films (24fps) and games (30-60fps) and what frames where I put my knowlage together to create a 8fps 30 seco[...]
+                "This is where we explored frame rate. I learned about the standered in films (24fps) and games (30-60fps) and what frames where I put my knowlage together to create a 8fps 30 seco[...]"
             color: "bg-indigo-600",
             link: "https://drive.google.com/file/d/1NoAA2R692xDUhx6Je0JieY56aL9W1M6F/view",
         },
@@ -56,7 +56,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Inside Vestavia Reel",
             description:
-                "this is where we explored the diffrent sizes and shapes of videos like horizontal for this video and why its like this we also explored captioning and why on youtube shorts and in[...]
+                "this is where we explored the diffrent sizes and shapes of videos like horizontal for this video and why its like this we also explored captioning and why on youtube shorts and in[...]"
             color: "bg-pink-600",
             link: "https://drive.google.com/file/d/1KJWMeSxfO9_HIQBmd8zuvVxBQuWiOlJu/view",
         },
@@ -66,7 +66,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Green Screen Magic Video",
             description:
-                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it in[...]
+                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it in[...]"
             color: "bg-yellow-600",
             link: "https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view",
         },

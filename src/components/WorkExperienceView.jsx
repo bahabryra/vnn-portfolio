@@ -16,7 +16,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "6 Shot Story",
             description:
-                "This is the first project Done For VNN we took 6 shots and turned into a poem. It wasent that difficult because it was just drag and drop really and it was only 6 shots this is where I first expirmented with Premier",
+                "This is the first project Done For VNN we took 6 shots and turned into a poem. It wasent that difficult because it was just drag and drop really and it was only 6 shots this is wh[...]
             color: "bg-purple-600",
             link: "https://drive.google.com/file/d/12SyCT7cei92nU-NkV9pB1peA-E26Scjq/view",
         },
@@ -26,7 +26,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "News Story",
             description:
-                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What [...]",
+                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What [...]
             color: "bg-red-600",
             link: "https://drive.google.com/file/d/1Z34sg377q5vRfU1_VN3uhYOrOfNV8sc8/view",
         },
@@ -36,7 +36,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "PSA / Commercial",
             description:
-                "We Made this Project as a class for a company compatition called litterquitters.org where we explained the causes of littering in under a minuite in a fun and engaging way WE WON!!!",
+                "We Made this Project as a class for a company compatition called litterquitters.org where we explained the causes of littering in under a minuite in a fun and engaging way WE WON![...]
             color: "bg-green-600",
             link: "https://drive.google.com/drive/u/1/folders/106k1lbnCFAcDrbn9bjJlFp2_nvu1tQYn",
         },
@@ -46,7 +46,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Stop Motion Video",
             description:
-                "This is where we explored frame rate. I learned about the standered in films (24fps) and games (30-60fps) and what frames where I put my knowlage together to create a 8fps 30 second video ",
+                "This is where we explored frame rate. I learned about the standered in films (24fps) and games (30-60fps) and what frames where I put my knowlage together to create a 8fps 30 seco[...]
             color: "bg-indigo-600",
             link: "https://drive.google.com/file/d/1NoAA2R692xDUhx6Je0JieY56aL9W1M6F/view",
         },
@@ -56,7 +56,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Inside Vestavia Reel",
             description:
-                "this is where we explored the diffrent sizes and shapes of videos like horizontal for this video and why its like this we also explored captioning and why on youtube shorts and instagram a lot of videos have captions embeded in the video itself",
+                "this is where we explored the diffrent sizes and shapes of videos like horizontal for this video and why its like this we also explored captioning and why on youtube shorts and in[...]
             color: "bg-pink-600",
             link: "https://drive.google.com/file/d/1KJWMeSxfO9_HIQBmd8zuvVxBQuWiOlJu/view",
         },
@@ -66,7 +66,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Green Screen Magic Video",
             description:
-                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it into a full blown video its not great to be honest premier was fighting me so its not that professinal looking but its good for my first green screen video!!!!",
+                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it in[...]
             color: "bg-yellow-600",
             link: "https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view",
         },
@@ -121,7 +121,7 @@ const WorkExperienceView = () => {
                         ></div>
 
                         {/* Contenedor de experiencias */}
-                        <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-4 relative overflow-x-auto">
+                        <div className="flex flex-col md:flex-row justify-start items-start space-y-12 md:space-y-0 md:space-x-4 relative overflow-x-auto pb-4">
                             {workExperiences.map((exp, index) => (
                                 <a
                                     key={exp.id}
@@ -132,7 +132,7 @@ const WorkExperienceView = () => {
                                 >
                                     <div
                                         ref={(el) => experienceRefs.current[index] = el}
-                                        className="relative flex flex-col items-center group w-full md:w-1/4 flex-shrink-0"
+                                        className="relative flex flex-col items-center group w-full md:w-72 flex-shrink-0"
                                         onMouseEnter={() => setHoveredItem(exp.id)}
                                         onMouseLeave={() => setHoveredItem(null)}
                                     >
@@ -145,12 +145,12 @@ const WorkExperienceView = () => {
 
                                         {/* Círculo SOBRE la línea */}
                                         <div
-                                            className={`hidden md:flex w-8 h-8 md:w-10 md:h-10 rounded-full ${exp.color} items-center justify-center text-white font-bold text-lg md:text-xl border-4 border-white shadow-lg`}
+                                            className={`hidden md:flex w-8 h-8 md:w-10 md:h-10 rounded-full ${exp.color} items-center justify-center text-white font-bold text-lg md:text-xl border-4 border-amber-200 z-10`}
                                         ></div>
 
                                         {/* Información de la experiencia debajo */}
                                         <div
-                                            className={`p-4 bg-white rounded-lg shadow-lg w-full max-w-sm transition-all duration-300 transform ${
+                                            className={`p-4 bg-white rounded-lg shadow-lg w-full min-h-80 transition-all duration-300 transform ${
                                                 hoveredItem === exp.id
                                                     ? "scale-105 shadow-2xl border-2 border-amber-400"
                                                     : "border-2 border-transparent"

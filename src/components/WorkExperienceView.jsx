@@ -18,6 +18,7 @@ const WorkExperienceView = () => {
             description:
                 "Worked on a secured loan system for BBVA using React, Lit, Web Components, and Java Spring Boot. Collaborated with an international team and applied version control with Git.",
             color: "bg-blue-600",
+            link: "https://example.com",
         },
         {
             id: 2,
@@ -25,8 +26,9 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "6 Shot Story",
             description:
-                "This is the first project Done For VNN we took 6 shots and turned into a poem. Reflection: What did you learn through the process of creating this video? Did you manage your time well? Did you lose footage or have to start over?",
+                "This is the first project Done For VNN we took 6 shots and turned into a poem. Reflection: What did you learn through the process of creating this video? Did you manage your time [...]",
             color: "bg-purple-600",
+            link: "https://example.com",
         },
         {
             id: 3,
@@ -34,8 +36,9 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "News Story",
             description:
-                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What are your proudest moments in this video?",
+                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What [...]",
             color: "bg-red-600",
+            link: "https://example.com",
         },
         {
             id: 4,
@@ -43,8 +46,9 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "PSA / Commercial",
             description:
-                "At least 1 Public Service Announcement OR Commercial (0:30 - 1:00). Reflection: What did you learn through the process of producing this video? What were some challenges that you faced? What are your proudest moments?",
+                "At least 1 Public Service Announcement OR Commercial (0:30 - 1:00). Reflection: What did you learn through the process of producing this video? What were some challenges that you [...]",
             color: "bg-green-600",
+            link: "https://example.com",
         },
         {
             id: 5,
@@ -52,8 +56,9 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Stop Motion Video",
             description:
-                "Create a stop motion video. Reflection: What did you learn about FRAME RATE? What were some challenges that you faced along the way? What are your proudest moments in this video?",
+                "Create a stop motion video. Reflection: What did you learn about FRAME RATE? What were some challenges that you faced along the way? What are your proudest moments in this video?[...]",
             color: "bg-indigo-600",
+            link: "https://example.com",
         },
         {
             id: 6,
@@ -61,8 +66,9 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Inside Vestavia Reel",
             description:
-                "Create an 'Inside Vestavia' Reel. Reflection: What did you learn about ASPECT RATIO? What were some challenges that you faced along the way? What are your proudest moments in this video?",
+                "Create an 'Inside Vestavia' Reel. Reflection: What did you learn about ASPECT RATIO? What were some challenges that you faced along the way? What are your proudest moments in this[...]",
             color: "bg-pink-600",
+            link: "https://example.com",
         },
         {
             id: 7,
@@ -70,9 +76,9 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Green Screen Magic Video",
             description:
-                "Create a green screen magic video. Reflection: What did you learn about working with a GREEN SCREEN? What were some challenges that you faced along the way? What are your proudest moments in this video?",
-            color: "bg-yellow-600", ;
-            <a href="https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view">Click here</a>
+                "Create a green screen magic video. Reflection: What did you learn about working with a GREEN SCREEN? What were some challenges that you faced along the way? What are your proudest[...]",
+            color: "bg-yellow-600",
+            link: "https://example.com",
         },
     ];
 
@@ -127,46 +133,53 @@ const WorkExperienceView = () => {
                         {/* Contenedor de experiencias */}
                         <div className="flex flex-col md:flex-row justify-between items-start space-y-12 md:space-y-0 md:space-x-4 relative overflow-x-auto">
                             {workExperiences.map((exp, index) => (
-                                <div
+                                <a
                                     key={exp.id}
-                                    ref={(el) => experienceRefs.current[index] = el}
-                                    className="relative flex flex-col items-center group w-full md:w-1/4 flex-shrink-0"
-                                    onMouseEnter={() => setHoveredItem(exp.id)}
-                                    onMouseLeave={() => setHoveredItem(null)}
+                                    href={exp.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="no-underline"
                                 >
-                                    {/* Fecha arriba */}
-                                    <div className="mb-4 text-center">
-                                        <p className="text-sm md:text-base font-bold text-amber-900 bg-white px-3 py-1 rounded-full shadow-md border-2 border-amber-600">
-                                            {exp.year}
-                                        </p>
-                                    </div>
-
-                                    {/* Círculo SOBRE la línea */}
                                     <div
-                                        className={`hidden md:flex w-8 h-8 md:w-10 md:h-10 rounded-full ${exp.color} items-center justify-center text-white font-bold text-lg md:text-xl border-4 border-amber-200 shadow-lg`}
-                                    ></div>
-
-                                    {/* Información de la experiencia debajo */}
-                                    <div
-                                        className={`p-4 bg-white rounded-lg shadow-lg w-full max-w-sm transition-all duration-300 transform ${
-                                            hoveredItem === exp.id
-                                                ? "scale-105 shadow-2xl border-2 border-amber-400"
-                                                : "border-2 border-transparent"
-                                        }`}
+                                        ref={(el) => experienceRefs.current[index] = el}
+                                        className="relative flex flex-col items-center group w-full md:w-1/4 flex-shrink-0"
+                                        onMouseEnter={() => setHoveredItem(exp.id)}
+                                        onMouseLeave={() => setHoveredItem(null)}
                                     >
-                                        <div className="text-center">
-                                            <h3 className="font-bold text-lg text-amber-900 mb-1">
-                                                {exp.company}
-                                            </h3>
-                                            <h4 className="font-semibold text-md text-blue-700 mb-3">
-                                                {exp.position}
-                                            </h4>
-                                            <p className="text-sm text-gray-700 leading-relaxed">
-                                                {exp.description}
+                                        {/* Fecha arriba */}
+                                        <div className="mb-4 text-center">
+                                            <p className="text-sm md:text-base font-bold text-amber-900 bg-white px-3 py-1 rounded-full shadow-md border-2 border-amber-600">
+                                                {exp.year}
                                             </p>
                                         </div>
+
+                                        {/* Círculo SOBRE la línea */}
+                                        <div
+                                            className={`hidden md:flex w-8 h-8 md:w-10 md:h-10 rounded-full ${exp.color} items-center justify-center text-white font-bold text-lg md:text-xl border-4 border-white shadow-lg`}
+                                        ></div>
+
+                                        {/* Información de la experiencia debajo */}
+                                        <div
+                                            className={`p-4 bg-white rounded-lg shadow-lg w-full max-w-sm transition-all duration-300 transform ${
+                                                hoveredItem === exp.id
+                                                    ? "scale-105 shadow-2xl border-2 border-amber-400"
+                                                    : "border-2 border-transparent"
+                                            }`}
+                                        >
+                                            <div className="text-center">
+                                                <h3 className="font-bold text-lg text-amber-900 mb-1">
+                                                    {exp.company}
+                                                </h3>
+                                                <h4 className="font-semibold text-md text-blue-700 mb-3">
+                                                    {exp.position}
+                                                </h4>
+                                                <p className="text-sm text-gray-700 leading-relaxed">
+                                                    {exp.description}
+                                                </p>
+                                            </div>
+                                        </div>
                                     </div>
-                                </div>
+                                </a>
                             ))}
                         </div>
                     </div>

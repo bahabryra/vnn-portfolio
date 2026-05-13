@@ -12,26 +12,16 @@ const WorkExperienceView = () => {
     const workExperiences = [
         {
             id: 1,
-            year: "December 25 - January 26",
-            company: "VNN - Year 1",
-            position: "Feature Story",
-            description:
-                "Worked on a secured loan system for BBVA using React, Lit, Web Components, and Java Spring Boot. Collaborated with an international team and applied version control with Git.",
-            color: "bg-blue-600",
-            link: "https://example.com",
-        },
-        {
-            id: 2,
             year: "September 25",
             company: "VNN - Year 1",
             position: "6 Shot Story",
             description:
-                "This is the first project Done For VNN we took 6 shots and turned into a poem. Reflection: What did you learn through the process of creating this video? Did you manage your time [...]",
+                "This is the first project Done For VNN we took 6 shots and turned into a poem. It wasent that difficult because it was just drag and drop really and it was only 6 shots this is where I first expirmented with Premier",
             color: "bg-purple-600",
             link: "https://drive.google.com/file/d/12SyCT7cei92nU-NkV9pB1peA-E26Scjq/view",
         },
         {
-            id: 3,
+            id: 2,
             year: "Upcoming",
             company: "VNN - Year 1",
             position: "News Story",
@@ -41,42 +31,42 @@ const WorkExperienceView = () => {
             link: "https://drive.google.com/file/d/1Z34sg377q5vRfU1_VN3uhYOrOfNV8sc8/view",
         },
         {
-            id: 4,
+            id: 3,
             year: "Upcoming",
             company: "VNN - Year 1",
             position: "PSA / Commercial",
             description:
-                "At least 1 Public Service Announcement OR Commercial (0:30 - 1:00). Reflection: What did you learn through the process of producing this video? What were some challenges that you [...]",
+                "We Made this Project as a class for a company compatition called litterquitters.org where we explained the causes of littering in under a minuite in a fun and engaging way WE WON!!!",
             color: "bg-green-600",
             link: "https://drive.google.com/drive/u/1/folders/106k1lbnCFAcDrbn9bjJlFp2_nvu1tQYn",
+        },
+        {
+            id: 4,
+            year: "Upcoming",
+            company: "VNN - Year 1",
+            position: "Stop Motion Video",
+            description:
+                "This is where we explored frame rate. I learned about the standered in films (24fps) and games (30-60fps) and what frames where I put my knowlage together to create a 8fps 30 second video ",
+            color: "bg-indigo-600",
+            link: "https://drive.google.com/file/d/1NoAA2R692xDUhx6Je0JieY56aL9W1M6F/view",
         },
         {
             id: 5,
             year: "Upcoming",
             company: "VNN - Year 1",
-            position: "Stop Motion Video",
+            position: "Inside Vestavia Reel",
             description:
-                "Create a stop motion video. Reflection: What did you learn about FRAME RATE? What were some challenges that you faced along the way? What are your proudest moments in this video?[...]",
-            color: "bg-indigo-600",
-            link: "https://drive.google.com/file/d/1NoAA2R692xDUhx6Je0JieY56aL9W1M6F/view",
+                "this is where we explored the diffrent sizes and shapes of videos like horizontal for this video and why its like this we also explored captioning and why on youtube shorts and instagram a lot of videos have captions embeded in the video itself",
+            color: "bg-pink-600",
+            link: "https://drive.google.com/file/d/1KJWMeSxfO9_HIQBmd8zuvVxBQuWiOlJu/view",
         },
         {
             id: 6,
             year: "Upcoming",
             company: "VNN - Year 1",
-            position: "Inside Vestavia Reel",
-            description:
-                "Create an 'Inside Vestavia' Reel. Reflection: What did you learn about ASPECT RATIO? What were some challenges that you faced along the way? What are your proudest moments in this[...]",
-            color: "bg-pink-600",
-            link: "https://drive.google.com/file/d/1KJWMeSxfO9_HIQBmd8zuvVxBQuWiOlJu/view",
-        },
-        {
-            id: 7,
-            year: "Upcoming",
-            company: "VNN - Year 1",
             position: "Green Screen Magic Video",
             description:
-                "Create a green screen magic video. Reflection: What did you learn about working with a GREEN SCREEN? What were some challenges that you faced along the way? What are your proudest[...]",
+                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it into a full blown video its not great to be honest premier was fighting me so its not that professinal looking but its good for my first green screen video!!!!",
             color: "bg-yellow-600",
             link: "https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view",
         },

@@ -17,7 +17,6 @@ const WorkExperienceView = () => {
             position: "Feature Story",
             description:
                 "Worked on a secured loan system for BBVA using React, Lit, Web Components, and Java Spring Boot. Collaborated with an international team and applied version control with Git.",
-            
             color: "bg-blue-600",
         },
         {
@@ -32,7 +31,7 @@ const WorkExperienceView = () => {
         {
             id: 3,
             year: "Upcoming",
-            company: "VNN - Videography",
+            company: "VNN - Year 1",
             position: "News Story",
             description:
                 "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What are your proudest moments in this video?",
@@ -41,7 +40,7 @@ const WorkExperienceView = () => {
         {
             id: 4,
             year: "Upcoming",
-            company: "VNN - Videography",
+            company: "VNN - Year 1",
             position: "PSA / Commercial",
             description:
                 "At least 1 Public Service Announcement OR Commercial (0:30 - 1:00). Reflection: What did you learn through the process of producing this video? What were some challenges that you faced? What are your proudest moments?",
@@ -50,7 +49,7 @@ const WorkExperienceView = () => {
         {
             id: 5,
             year: "Upcoming",
-            company: "VNN - Creative Projects",
+            company: "VNN - Year 1",
             position: "Stop Motion Video",
             description:
                 "Create a stop motion video. Reflection: What did you learn about FRAME RATE? What were some challenges that you faced along the way? What are your proudest moments in this video?",
@@ -59,7 +58,7 @@ const WorkExperienceView = () => {
         {
             id: 6,
             year: "Upcoming",
-            company: "VNN - Creative Projects",
+            company: "VNN - Year 1",
             position: "Inside Vestavia Reel",
             description:
                 "Create an 'Inside Vestavia' Reel. Reflection: What did you learn about ASPECT RATIO? What were some challenges that you faced along the way? What are your proudest moments in this video?",
@@ -68,11 +67,12 @@ const WorkExperienceView = () => {
         {
             id: 7,
             year: "Upcoming",
-            company: "VNN - Creative Projects",
+            company: "VNN - Year 1",
             position: "Green Screen Magic Video",
             description:
                 "Create a green screen magic video. Reflection: What did you learn about working with a GREEN SCREEN? What were some challenges that you faced along the way? What are your proudest moments in this video?",
-            color: "bg-yellow-600",
+            color: "bg-yellow-600", ;
+            <a href="https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view">Click here</a>
         },
     ];
 

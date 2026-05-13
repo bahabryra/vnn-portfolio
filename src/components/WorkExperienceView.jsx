@@ -28,7 +28,7 @@ const WorkExperienceView = () => {
             description:
                 "This is the first project Done For VNN we took 6 shots and turned into a poem. Reflection: What did you learn through the process of creating this video? Did you manage your time [...]",
             color: "bg-purple-600",
-            link: "https://example.com",
+            link: "https://drive.google.com/file/d/12SyCT7cei92nU-NkV9pB1peA-E26Scjq/view",
         },
         {
             id: 3,
@@ -38,7 +38,7 @@ const WorkExperienceView = () => {
             description:
                 "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What [...]",
             color: "bg-red-600",
-            link: "https://example.com",
+            link: "https://drive.google.com/file/d/1Z34sg377q5vRfU1_VN3uhYOrOfNV8sc8/view",
         },
         {
             id: 4,
@@ -48,7 +48,7 @@ const WorkExperienceView = () => {
             description:
                 "At least 1 Public Service Announcement OR Commercial (0:30 - 1:00). Reflection: What did you learn through the process of producing this video? What were some challenges that you [...]",
             color: "bg-green-600",
-            link: "https://example.com",
+            link: "https://drive.google.com/drive/u/1/folders/106k1lbnCFAcDrbn9bjJlFp2_nvu1tQYn",
         },
         {
             id: 5,
@@ -58,7 +58,7 @@ const WorkExperienceView = () => {
             description:
                 "Create a stop motion video. Reflection: What did you learn about FRAME RATE? What were some challenges that you faced along the way? What are your proudest moments in this video?[...]",
             color: "bg-indigo-600",
-            link: "https://example.com",
+            link: "https://drive.google.com/file/d/1NoAA2R692xDUhx6Je0JieY56aL9W1M6F/view",
         },
         {
             id: 6,
@@ -68,7 +68,7 @@ const WorkExperienceView = () => {
             description:
                 "Create an 'Inside Vestavia' Reel. Reflection: What did you learn about ASPECT RATIO? What were some challenges that you faced along the way? What are your proudest moments in this[...]",
             color: "bg-pink-600",
-            link: "https://example.com",
+            link: "https://drive.google.com/file/d/1KJWMeSxfO9_HIQBmd8zuvVxBQuWiOlJu/view",
         },
         {
             id: 7,
@@ -78,7 +78,7 @@ const WorkExperienceView = () => {
             description:
                 "Create a green screen magic video. Reflection: What did you learn about working with a GREEN SCREEN? What were some challenges that you faced along the way? What are your proudest[...]",
             color: "bg-yellow-600",
-            link: "https://example.com",
+            link: "https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view",
         },
     ];
 

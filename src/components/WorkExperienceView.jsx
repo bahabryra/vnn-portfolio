@@ -22,11 +22,11 @@ const WorkExperienceView = () => {
         },
         {
             id: 2,
-            year: "Upcoming",
+            year: "January 2026",
             company: "VNN - Year 1",
             position: "News Story",
             description:
-                "At least 1 News Story (1:30 - 2:00). Reflection: What did you learn through the process of producing this news story? What were some challenges that you faced along the way? What [...]",
+                "I learned that about how feature stories work its supposed to have voice over but i dident really do that unfortunetly I learned how to interview people and ask them stuff such as 'say your name and spell it please' and related phrases",
             color: "bg-red-600",
             link: "https://drive.google.com/file/d/1Z34sg377q5vRfU1_VN3uhYOrOfNV8sc8/view",
         },
@@ -36,7 +36,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "PSA / Commercial",
             description:
-                "We Made this Project as a class for a company compatition called litterquitters.org where we explained the causes of littering in under a minuite in a fun and engaging way WE WON![...]",
+                "We Made this Project as a class for a company compatition called litterquitters.org where we explained the causes of littering in under a minuite in a fun and engaging way WE WON!",
             color: "bg-green-600",
             link: "https://drive.google.com/drive/u/1/folders/106k1lbnCFAcDrbn9bjJlFp2_nvu1tQYn",
         },
@@ -46,7 +46,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Stop Motion Video",
             description:
-                "This is where we explored frame rate. I learned about the standered in films (24fps) and games (30-60fps) and what frames where I put my knowlage together to create a 8fps 30 seco[...]",
+                "This is where we explored frame rate. I learned about the standered in films (24fps) and games (30-60fps) and what frames where I put my knowlage together to create a 8fps 30 seconds",
             color: "bg-indigo-600",
             link: "https://drive.google.com/file/d/1NoAA2R692xDUhx6Je0JieY56aL9W1M6F/view",
         },
@@ -56,7 +56,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Inside Vestavia Reel",
             description:
-                "this is where we explored the diffrent sizes and shapes of videos like horizontal for this video and why its like this we also explored captioning and why on youtube shorts and in[...]",
+                "this is where we explored the diffrent sizes and shapes of videos like horizontal for this video and why its like this we also explored captioning and why on youtube shorts and in insta reels they have captions embeded in it",
             color: "bg-pink-600",
             link: "https://drive.google.com/file/d/1KJWMeSxfO9_HIQBmd8zuvVxBQuWiOlJu/view",
         },
@@ -66,7 +66,7 @@ const WorkExperienceView = () => {
             company: "VNN - Year 1",
             position: "Green Screen Magic Video",
             description:
-                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it in[...]",
+                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it into a backround it was pretty fun although premier dident want to cooaperate with me",
             color: "bg-yellow-600",
             link: "https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view",
         },

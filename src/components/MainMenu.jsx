@@ -109,7 +109,7 @@ export default function MainMenu() {
                         />
                     </Link>
                     <Link
-                        to={"https://github.com/tobieche110/wii-portfolio"}
+                        to={"https://github.com/bahabryra/Eaglercraft-Snapshot-24w44a"}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="md:w-1/4 md:p-[0.4vh]"

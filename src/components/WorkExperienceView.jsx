@@ -70,6 +70,36 @@ const WorkExperienceView = () => {
             color: "bg-yellow-600",
             link: "https://drive.google.com/file/d/1XZS1RrwjQ6tCQ5pj8c5PP-BVVIBXOeP8/view",
         },
+        {
+            id: 8,
+            year: "Featured Edit",
+            company: "VNN - Year 1",
+            position: "Brain Buffet Module 1",
+            description:
+                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it into a backround it was pretty fun although premier dident want to cooaperate with me",
+            color: "bg-yellow-600",
+            link: "https://drive.google.com/file/d/1yUTmQvB5oAtUHF_nRqXjX_LIFS5lHpSy/view",
+        },
+        {
+            id: 8,
+            year: "Featured Edit",
+            company: "VNN - Year 1",
+            position: "Brain Buffet Module 2",
+            description:
+                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it into a backround it was pretty fun although premier dident want to cooaperate with me",
+            color: "bg-yellow-600",
+            link: "https://drive.google.com/file/d/1l2lBjowC7yMuPEhpbpmjb0d2fidPfyGS/view",
+        },
+        {
+            id: 8,
+            year: "Featured Edit",
+            company: "VNN - Year 1",
+            position: "Eras Of ze mass media - defenitly Looks Amazing By the Way!!!",
+            description:
+                "this is where we first learned about Green Screen and its magic how the size of green screens are important and related stuff we learned how to light a green screen and turn it into a backround it was pretty fun although premier dident want to cooaperate with me",
+            color: "bg-yellow-600",
+            link: "https://drive.google.com/file/d/1paG2l3CuGXkXlt1lR_TQ5gXTiBZzcFIE/view?usp=sharing",
+        },
     ];
 
     useGSAP(() => {
